@@ -9,6 +9,7 @@
 | 03-model-runtime | `npm run lab:03` | Pi P03 | ModelRuntime：列表 / getModel / setModel |
 | 04-system-prompt | `npm run lab:04a` / `lab:04b` | Pi P04 | 覆盖默认人设；分层拼装提示词 |
 | 05-tools | `npm run lab:05` | Pi P05 | `defineTool` + `query_data` 查 CSV |
+| 06-extensions | `npm run lab:06a` / `lab:06b` | Pi P06 | `tool_call` 拦截；扩展事件全景 |
 | 03-dsh-smoke | `npm run lab:dsh:help` / `lab:dsh:web` | 对照 C01·C05 | DeepSeek Harness CLI / Web 冒烟 |
 
 后续可按 Pi 教程追加：模型管理、系统提示词、自定义工具、扩展/事件守卫、SSE 服务封装。

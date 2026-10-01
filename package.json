@@ -14,6 +14,8 @@
     "lab:04a": "tsx labs/04-system-prompt/04a-replace.ts",
     "lab:04b": "tsx labs/04-system-prompt/04b-layered.ts",
     "lab:05": "tsx labs/05-tools/05a-query-data.ts",
+    "lab:06a": "tsx labs/06-extensions/06a-limit-guard.ts",
+    "lab:06b": "tsx labs/06-extensions/06b-see-all-events.ts",
     "lab:03:help": "npx --yes @deepseek-ai/dsh --help",
     "lab:03:web": "npx --yes @deepseek-ai/dsh web --no-open",
     "lab:dsh:help": "npx --yes @deepseek-ai/dsh --help",

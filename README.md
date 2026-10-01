@@ -40,6 +40,8 @@ npm run lab:03        # Pi：ModelRuntime / 切模型
 npm run lab:04a       # Pi：替换系统提示词人设
 npm run lab:04b       # Pi：分层拼装提示词
 npm run lab:05        # Pi：自定义工具 query_data
+npm run lab:06a       # Pi：扩展拦截过大 limit
+npm run lab:06b       # Pi：扩展事件全景
 npm run lab:dsh:help  # DSH：确认 CLI（会拉取 @deepseek-ai/dsh）
 # npm run lab:dsh:web # DSH：Web UI（先读上游 SAFETY.md）
 ```
