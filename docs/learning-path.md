@@ -21,7 +21,7 @@ DSH 源码 / 文档：https://github.com/deepseek-ai/deepseek-harness · https:/
 |----|------|------------|
 | P01 | 环境部署 | `labs/01-hello` |
 | P02 | 工作机制 / 核心 API | `labs/02-session-events` + `docs/notes/practice/P02.md` |
-| P03 | 模型配置关键点 | `docs/notes/practice/P03.md` |
+| P03 | 模型配置关键点 | `labs/03-model-runtime` + `docs/notes/practice/P03.md` |
 | P04 | 系统提示词 | `docs/notes/practice/P04.md` |
 | P05 | 定义工具 | `docs/notes/practice/P05.md` |
 | P06 | 事件监听 / 扩展 | `docs/notes/practice/P06.md` |

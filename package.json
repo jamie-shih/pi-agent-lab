@@ -10,8 +10,11 @@
   "scripts": {
     "lab:01": "tsx labs/01-hello/index.ts",
     "lab:02": "tsx labs/02-session-events/index.ts",
+    "lab:03": "tsx labs/03-model-runtime/index.ts",
     "lab:03:help": "npx --yes @deepseek-ai/dsh --help",
     "lab:03:web": "npx --yes @deepseek-ai/dsh web --no-open",
+    "lab:dsh:help": "npx --yes @deepseek-ai/dsh --help",
+    "lab:dsh:web": "npx --yes @deepseek-ai/dsh web --no-open",
     "typecheck": "tsc --noEmit",
     "setup:config": "node scripts/setup-config.mjs",
     "vendor:clone": "node scripts/clone-vendors.mjs all",
