@@ -1,0 +1,26 @@
+{
+  "name": "pi-agent-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal lab for learning Pi Agent SDK (earendil-works/pi), guided by dg-ai-notes dual-track curriculum",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "lab:01": "tsx labs/01-hello/index.ts",
+    "lab:02": "tsx labs/02-session-events/index.ts",
+    "typecheck": "tsc --noEmit",
+    "setup:config": "node scripts/setup-config.mjs"
+  },
+  "dependencies": {
+    "@earendil-works/pi-agent-core": "0.99.2",
+    "@earendil-works/pi-ai": "0.99.2",
+    "@earendil-works/pi-coding-agent": "0.99.2"
+  },
+  "devDependencies": {
+    "@types/node": "24.5.2",
+    "tsx": "4.20.5",
+    "typescript": "5.9.2"
+  }
+}

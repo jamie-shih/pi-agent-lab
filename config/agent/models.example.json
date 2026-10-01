@@ -1,0 +1,13 @@
+{
+  "providers": {
+    "openai": {
+      "apiKey": "${OPENAI_API_KEY}",
+      "models": [
+        {
+          "id": "gpt-4.1-mini",
+          "name": "GPT-4.1 Mini"
+        }
+      ]
+    }
+  }
+}

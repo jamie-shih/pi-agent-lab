@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.pi/
+config/agent/auth.json
+config/agent/models.json
+!config/agent/models.example.json
+vendor/pi/
+.idea/
+.vscode/
+*.tsbuildinfo
