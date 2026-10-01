@@ -25,7 +25,7 @@ DSH 源码 / 文档：https://github.com/deepseek-ai/deepseek-harness · https:/
 | P04 | 系统提示词 | `labs/04-system-prompt` + `docs/notes/practice/P04.md` |
 | P05 | 定义工具 | `labs/05-tools` + `docs/notes/practice/P05.md` |
 | P06 | 事件监听 / 扩展 | `labs/06-extensions` + `docs/notes/practice/P06.md` |
-| P07 | 封装成服务 | `docs/notes/practice/P07.md` |
+| P07 | 封装成服务 | `labs/07-sse-service` + `docs/notes/practice/P07.md` |
 
 教程目录：https://github.com/buchidonggua/dg-ai-notes/tree/main/pi-agent/pi_sdk_learn/docs  
 

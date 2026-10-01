@@ -16,6 +16,7 @@
     "lab:05": "tsx labs/05-tools/05a-query-data.ts",
     "lab:06a": "tsx labs/06-extensions/06a-limit-guard.ts",
     "lab:06b": "tsx labs/06-extensions/06b-see-all-events.ts",
+    "lab:07": "tsx labs/07-sse-service/server.ts",
     "lab:03:help": "npx --yes @deepseek-ai/dsh --help",
     "lab:03:web": "npx --yes @deepseek-ai/dsh web --no-open",
     "lab:dsh:help": "npx --yes @deepseek-ai/dsh --help",
@@ -30,9 +31,11 @@
     "@earendil-works/pi-agent-core": "0.99.2",
     "@earendil-works/pi-ai": "0.99.2",
     "@earendil-works/pi-coding-agent": "0.99.2",
+    "express": "5.1.0",
     "typebox": "1.3.27"
   },
   "devDependencies": {
+    "@types/express": "5.0.3",
     "@types/node": "24.5.2",
     "tsx": "4.20.5",
     "typescript": "5.9.2"
