@@ -7,6 +7,7 @@
 | 01-hello | `npm run lab:01` | Pi P01 | 跑通 Pi SDK + 模型配置 |
 | 02-session-events | `npm run lab:02` | Pi P02 / M03·M07 | 观察 Pi session 事件流 |
 | 03-model-runtime | `npm run lab:03` | Pi P03 | ModelRuntime：列表 / getModel / setModel |
+| 04-system-prompt | `npm run lab:04a` / `lab:04b` | Pi P04 | 覆盖默认人设；分层拼装提示词 |
 | 03-dsh-smoke | `npm run lab:dsh:help` / `lab:dsh:web` | 对照 C01·C05 | DeepSeek Harness CLI / Web 冒烟 |
 
 后续可按 Pi 教程追加：模型管理、系统提示词、自定义工具、扩展/事件守卫、SSE 服务封装。

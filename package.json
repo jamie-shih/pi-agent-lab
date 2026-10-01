@@ -11,6 +11,8 @@
     "lab:01": "tsx labs/01-hello/index.ts",
     "lab:02": "tsx labs/02-session-events/index.ts",
     "lab:03": "tsx labs/03-model-runtime/index.ts",
+    "lab:04a": "tsx labs/04-system-prompt/04a-replace.ts",
+    "lab:04b": "tsx labs/04-system-prompt/04b-layered.ts",
     "lab:03:help": "npx --yes @deepseek-ai/dsh --help",
     "lab:03:web": "npx --yes @deepseek-ai/dsh web --no-open",
     "lab:dsh:help": "npx --yes @deepseek-ai/dsh --help",

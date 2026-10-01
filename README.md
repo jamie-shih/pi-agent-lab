@@ -37,6 +37,8 @@ export PI_CODING_AGENT_DIR=$PWD/config/agent
 npm run lab:01        # Pi：最小会话
 npm run lab:02        # Pi：观察 session 事件
 npm run lab:03        # Pi：ModelRuntime / 切模型
+npm run lab:04a       # Pi：替换系统提示词人设
+npm run lab:04b       # Pi：分层拼装提示词
 npm run lab:dsh:help  # DSH：确认 CLI（会拉取 @deepseek-ai/dsh）
 # npm run lab:dsh:web # DSH：Web UI（先读上游 SAFETY.md）
 ```
