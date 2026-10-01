@@ -1,19 +1,21 @@
 # 学习路径
 
-本 lab 跟着双轨教程走，不复制教程正文；正文请读在线版或上游仓库。
+本 lab 三条轨道：**Pi 实战** → **Pi 源码** → **与 DeepSeek Harness 对照**。不复制教程正文；正文读在线版或上游仓库。
 
 ## 推荐顺序
 
-1. **先实战（P01–P07）** — 搭出一个可运行的垂直 Agent  
-2. **再源码（M01–M10）** — 理解 Agent Loop、工具、消息、上下文、会话  
+1. **Pi 实战（P01–P07）** — 搭出一个可运行的垂直 Agent  
+2. **Pi 源码（M01–M10）** — 理解 Agent Loop、工具、消息、上下文、会话  
+3. **对照（C01–C06）** — 同一问题在 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) 里怎么解  
 
-在线阅读（推荐）：https://dg-ai-notes.pages.dev  
+对照总表：[compare/pi-vs-deepseek-harness.md](./compare/pi-vs-deepseek-harness.md)
 
-上游笔记仓库：https://github.com/buchidonggua/dg-ai-notes  
+在线阅读（Pi）：https://dg-ai-notes.pages.dev  
+上游笔记：https://github.com/buchidonggua/dg-ai-notes  
+Pi 源码：https://github.com/earendil-works/pi  
+DSH 源码 / 文档：https://github.com/deepseek-ai/deepseek-harness · https://deepseek-harness.github.io/deepseek-harness/
 
-官方源码：https://github.com/earendil-works/pi  
-
-## 实战上手 · 7 章
+## 实战上手 · 7 章（Pi）
 
 | ID | 主题 | 本仓库对应 |
 |----|------|------------|
@@ -29,7 +31,7 @@
 
 配套示例代码（上游）：https://github.com/buchidonggua/dg-ai-notes/tree/main/pi-agent/pi_sdk_learn/code  
 
-## 源码精读 · 10 章
+## 源码精读 · 10 章（Pi）
 
 | ID | 主题 | 笔记模板 |
 |----|------|----------|
@@ -48,20 +50,43 @@ TS 版：https://github.com/buchidonggua/dg-ai-notes/tree/main/pi-agent/pi_sourc
 
 Python 版：https://github.com/buchidonggua/dg-ai-notes/tree/main/pi-agent/pi_source_dive/python  
 
+## 对照学习 · 6 章（Pi ↔ DeepSeek Harness）
+
+| ID | 主题 | 笔记 / Lab |
+|----|------|------------|
+| C01 | 定位与架构假设 | `docs/notes/compare/C01.md` |
+| C02 | Agent Loop 与 Turn/Step | `docs/notes/compare/C02.md` |
+| C03 | 工具系统与扩展点 | `docs/notes/compare/C03.md` |
+| C04 | 会话与上下文 | `docs/notes/compare/C04.md` |
+| C05 | 产品组装（CLI / UI / SDK） | `docs/notes/compare/C05.md` · `labs/03-dsh-smoke` |
+| C06 | 何时选谁 | `docs/notes/compare/C06.md` |
+
+DSH 架构精读入口：https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/architecture.md  
+
+运行前请读安全说明：https://github.com/deepseek-ai/deepseek-harness/blob/master/SAFETY.md  
+
 ## 本地对照官方源码
 
 ```bash
-git clone --depth 1 https://github.com/earendil-works/pi.git vendor/pi
+npm run vendor:clone          # pi + deepseek-harness
+npm run vendor:clone:pi
+npm run vendor:clone:dsh
 ```
 
-重点包：
+### Pi 重点包
 
 - `packages/ai` → `@earendil-works/pi-ai`
 - `packages/agent` → `@earendil-works/pi-agent-core`
 - `packages/coding-agent` → `@earendil-works/pi-coding-agent`
 - `packages/tui` → `@earendil-works/pi-tui`
 
-## Skill（可选）
+### DeepSeek Harness 重点
+
+- `packages/core/agent-loop` · `packages/core/tools` · `packages/core/session`
+- `packages/llm` · `packages/bundle/*` · `packages/sdk`
+- `docs/architecture.md` · Cordis primer / tutorial
+
+## Skill（可选，Pi）
 
 教程同步维护的 `dg-piagent` skill：  
 https://github.com/buchidonggua/dg-ai-notes/tree/main/skills/dg-piagent  

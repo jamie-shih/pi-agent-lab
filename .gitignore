@@ -10,6 +10,7 @@ config/agent/auth.json
 config/agent/models.json
 !config/agent/models.example.json
 vendor/pi/
+vendor/deepseek-harness/
 .idea/
 .vscode/
 *.tsbuildinfo

@@ -1,18 +1,25 @@
 # Labs
 
-可运行的 TypeScript 实验，对齐 [dg-ai-notes](https://github.com/buchidonggua/dg-ai-notes) 实战上手路径，API 以官方 [`@earendil-works/pi-coding-agent`](https://www.npmjs.com/package/@earendil-works/pi-coding-agent) 为准。
+可运行实验。Pi 对齐 [dg-ai-notes](https://github.com/buchidonggua/dg-ai-notes) 实战路径；DSH 对齐 [deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) 冒烟与对照。
 
-| Lab | 命令 | 对应教程 | 目的 |
-|-----|------|----------|------|
-| 01-hello | `npm run lab:01` | P01 环境部署 | 跑通 SDK + 模型配置 |
-| 02-session-events | `npm run lab:02` | P02 / M03·M07 | 观察会话事件流 |
+| Lab | 命令 | 对应 | 目的 |
+|-----|------|------|------|
+| 01-hello | `npm run lab:01` | Pi P01 | 跑通 Pi SDK + 模型配置 |
+| 02-session-events | `npm run lab:02` | Pi P02 / M03·M07 | 观察 Pi session 事件流 |
+| 03-dsh-smoke | `npm run lab:03:help` / `lab:03:web` | 对照 C01·C05 | DeepSeek Harness CLI / Web 冒烟 |
 
-后续可按教程自行追加：模型管理、系统提示词、自定义工具、扩展/事件守卫、SSE 服务封装。
+后续可按 Pi 教程追加：模型管理、系统提示词、自定义工具、扩展/事件守卫、SSE 服务封装。
 
-## 前置
+## 前置（Pi Labs）
 
 1. Node.js ≥ 22.19
 2. `npm install`
 3. 配置模型（二选一）
    - `npm run setup:config` 后编辑 `config/agent/models.json`，并 `export PI_CODING_AGENT_DIR=$PWD/config/agent`
    - 或使用本机 `~/.pi/agent/models.json`
+
+## 前置（DSH Lab）
+
+1. 阅读 [SAFETY.md](https://github.com/deepseek-ai/deepseek-harness/blob/master/SAFETY.md)
+2. `npm run lab:03:help` 会经 npx 拉取 `@deepseek-ai/dsh`
+3. 源码对照：`npm run vendor:clone:dsh`
