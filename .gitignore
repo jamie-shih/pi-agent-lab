@@ -8,6 +8,7 @@ dist/
 .pi/
 config/agent/auth.json
 config/agent/models.json
+config/agent/sessions/
 !config/agent/models.example.json
 vendor/pi/
 vendor/deepseek-harness/
