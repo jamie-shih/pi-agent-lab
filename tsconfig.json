@@ -12,5 +12,5 @@
     "rootDir": ".",
     "outDir": "dist"
   },
-  "include": ["labs/**/*.ts", "scripts/**/*.ts"]
+  "include": ["labs/**/*.ts", "scripts/**/*.ts", "shared/**/*.ts"]
 }
